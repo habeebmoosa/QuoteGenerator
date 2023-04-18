@@ -13,6 +13,8 @@ body{
 
 .container{
     text-align: center;
+    margin: 10vh 7vh
+
     
 }
 .header{
@@ -25,21 +27,22 @@ body{
 .qouteContainer{
     margin-top: 15px;
     background-color: white;
-    width: 400px;
-    height: 200px;
+     width: 50vw;
+    height: 50vh;
     border-radius: 15px;
     padding: 50px 40px;
+    height: fit-content;
     box-shadow:  0 0 4px;
 }
 .change{
     margin-top: 15px;
 }
 .mainContent{
-   font-size: 1.5rem;
-   line-height: 1.4;
-   height: 160px;
-   transition: transform .10s;
-   
+    font-size: 1.5rem;
+    line-height: 1.4;
+    height: 160px;
+    transition: transform .10s;
+    height: fit-content;
 }
 .person{
     font-size: 20px;
@@ -47,12 +50,13 @@ body{
     margin-top: 22px;
 }
 #button{
-    width: 50px;
-    height: 25px;
+    width: 70px;
+    height: 35px;
     background-color: black;
     color: white;
     border: none;
     border-radius: 4px;
+    font-size: 17px;
 }
 #button:active{
     background-color: rgb(39, 38, 38);
